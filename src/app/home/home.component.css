@@ -1,0 +1,16 @@
+
+.home_container{
+background-color: rgb(214, 248, 248);
+padding: 30px 40px;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.start_course{
+height: auto;
+
+
+background-color: rgb(231, 217, 245);
+}

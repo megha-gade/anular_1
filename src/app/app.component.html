@@ -1,0 +1,40 @@
+<div class="main_container">
+
+
+
+<!-- navbar -->
+<div class="nav">
+<div class="nav_container">
+<ul>
+  <!-- <li><a href="home">Home</a></li>
+<li><a href="contact">Contact</a></li>
+<li><a href="about">About</a></li>
+<li><a href="course">Courses</a></li> -->
+
+
+
+<li><a routerLinkActive="active" routerLink="home">Home</a></li>
+<li><a [routerLinkActive]="'active'" routerLink="contact">Contact</a></li>
+<li><a [routerLinkActive]="'active'" routerLink="about">About</a></li>
+<li><a routerLinkActive="active" routerLink="courses">Courses</a></li>
+
+
+</ul>
+</div>
+</div>
+
+<!-- navbar end -->
+
+<div class="component_container">
+<!-- <app-home></app-home>
+<app-about></app-about>
+<app-contact></app-contact>
+<app-courses></app-courses> -->
+
+
+<router-outlet></router-outlet>
+
+</div>
+
+
+</div>

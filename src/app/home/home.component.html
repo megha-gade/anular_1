@@ -1,0 +1,12 @@
+<div class="home_container" *ngFor="let course of courses">
+
+<article class="start_course">
+<h1 style="text-align: center;">{{course.name}}</h1>
+<span [ngStyle]="{color:course.type==='Free'?'green':'red'}">{{course.type}}</span>
+<h2>{{course.price+'Rs'}}</h2>
+<h2>{{course.duration+'Months'}}</h2>
+<h3>{{'Rating'+course.rating}}</h3>
+<p>{{course.description.substring(0,100)+'...'}}</p>
+</article>
+
+</div>
